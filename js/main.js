@@ -1,4 +1,4 @@
-import Person from './Person.js';
+/*import Person from './Person.js';
 import Monkey from './decorator.js';
 import RxJSDemo from './RxJSDemo';
 
@@ -9,4 +9,10 @@ let m = new Monkey();
 m.sayName();
 
 let r = new RxJSDemo();
-r.subscribe();
+r.subscribe();*/
+
+
+import helloWorldGenerator from './Generator/helloWorldGenerator.js';
+
+var hw = helloWorldGenerator();
+hw.next()
